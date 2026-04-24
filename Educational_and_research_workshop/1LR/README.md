@@ -70,7 +70,7 @@
 ## Запуск проекта
 
 ```bash
-it clone https://github.com/KOTorCAT/6th-semester-/tree/main/Educational_and_research_workshop/1LR/3stage
+git clone https://github.com/KOTorCAT/6th-semester-/tree/main/Educational_and_research_workshop/1LR/3stage
 
 # 2. Активировать виртуальное окружение
 python3 -m venv venv
@@ -91,8 +91,17 @@ python manage.py runserver 8001
 ---
 
 ## Список источников (по ГОСТ)
+Большая российская энциклопедия. Метод [Электронный ресурс]. — URL: https://bigenc.ru/c/metod-85db71
 
- Полный список из 7 источников находится в конце файла [1stage.md](1stage.md)
+ГОСТ Р 57122-2016. Информационные технологии. Словарь терминов [Электронный ресурс]. — URL: http://irbis.fips.ru:8080/web/index.php?LNG=&Z21ID=&P21DBN=FIPS&I21DBN=FIPS_PRINT&S21FMT=fullw_print&C21COM=F&Z21MFN=9300
+
+Новиков А. М., Новиков Д. А. Методология: словарь системы основных понятий [Электронный ресурс]. — URL: http://library.volnc.ru/book/view?id=9442
+
+Едронова В. Н., Овчаров А. О. Методы, методология и логика научных исследований // Экономический анализ: теория и практика. — 2013. — № 9(312) [Электронный ресурс]. — URL: https://cyberleninka.ru/article/n/metody-metodologiya-i-logika-nauchnyh-issledovaniy
+
+Мухина Е. Р. Методология менеджмента [Электронный ресурс]. — URL: https://cyberleninka.ru/article/n/metodologiya-menedzhmenta
+
+Кознов Д. В. Введение в программную инженерию (курс ИНТУИТ) [Электронный ресурс]. — Режим доступа: https://intuit.ru/studies/courses/2260/252/lecture/15007
 
 ---
 

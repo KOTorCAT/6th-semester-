@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notes | {% if action == 'add' %}New Note{% else %}Edit Note{% endif %}</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: #ffffff;
+            color: #111111;
+            line-height: 1.5;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            font-size: 28px;
+            font-weight: 500;
+            letter-spacing: -0.3px;
+            border-bottom: 2px solid #111111;
+            padding-bottom: 12px;
+            margin-bottom: 28px;
+        }
+        
+        .form-group {
+            margin-bottom: 24px;
+        }
+        
+        label {
+            display: block;
+            font-size: 13px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+            color: #555555;
+        }
+        
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #cccccc;
+            font-size: 16px;
+            font-family: inherit;
+            background-color: #ffffff;
+            transition: border-color 0.2s ease;
+            box-sizing: border-box;
+        }
+        
+        input[type="text"]:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #111111;
+        }
+        
+        textarea {
+            resize: vertical;
+            min-height: 200px;
+        }
+        
+        .form-actions {
+            display: flex;
+            gap: 12px;
+            margin-top: 32px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #111111;
+            color: #ffffff;
+            border: none;
+            padding: 10px 24px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            font-family: inherit;
+        }
+        
+        .btn:hover {
+            background-color: #333333;
+        }
+        
+        .btn-secondary {
+            background-color: transparent;
+            color: #111111;
+            border: 1px solid #cccccc;
+        }
+        
+        .btn-secondary:hover {
+            background-color: #f5f5f5;
+            border-color: #111111;
+        }
+        
+        hr {
+            border: none;
+            border-top: 1px solid #eeeeee;
+            margin: 30px 0;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #888888;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        
+        .back-link:hover {
+            color: #111111;
+        }
+        
+        footer {
+            text-align: center;
+            font-size: 12px;
+            color: #999999;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eeeeee;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-link">← Back to notes</a>
+        
+        <h1>{% if action == 'add' %}NEW NOTE{% else %}EDIT NOTE{% endif %}</h1>
+        
+        <form method="post">
+            {% csrf_token %}
+            
+            <div class="form-group">
+                <label>Title</label>
+                <input type="text" name="title" value="{{ note.title|default:'' }}" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Content</label>
+                <textarea name="text" required>{{ note.text|default:'' }}</textarea>
+            </div>
+            
+            <div class="form-actions">
+                <button type="submit" class="btn">Save</button>
+                <a href="/"><button type="button" class="btn btn-secondary">Cancel</button></a>
+            </div>
+        </form>
+        
+        <footer>
+            Notes — simple note taking application
+        </footer>
+    </div>
+</body>
+</html>

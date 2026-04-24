@@ -91,17 +91,19 @@ python manage.py runserver 8001
 ---
 
 ## Список источников (по ГОСТ)
-Большая российская энциклопедия. Метод [Электронный ресурс]. — URL: https://bigenc.ru/c/metod-85db71
+---
 
-ГОСТ Р 57122-2016. Информационные технологии. Словарь терминов [Электронный ресурс]. — URL: http://irbis.fips.ru:8080/web/index.php?LNG=&Z21ID=&P21DBN=FIPS&I21DBN=FIPS_PRINT&S21FMT=fullw_print&C21COM=F&Z21MFN=9300
+1. **Большая российская энциклопедия. Метод** [Электронный ресурс]. — URL: https://bigenc.ru/c/metod-85db71
 
-Новиков А. М., Новиков Д. А. Методология: словарь системы основных понятий [Электронный ресурс]. — URL: http://library.volnc.ru/book/view?id=9442
+2. **ГОСТ Р 57122-2016.** Информационные технологии. Словарь терминов [Электронный ресурс]. — URL: http://irbis.fips.ru:8080/web/index.php?LNG=&Z21ID=&P21DBN=FIPS&I21DBN=FIPS_PRINT&S21FMT=fullw_print&C21COM=F&Z21MFN=9300
 
-Едронова В. Н., Овчаров А. О. Методы, методология и логика научных исследований // Экономический анализ: теория и практика. — 2013. — № 9(312) [Электронный ресурс]. — URL: https://cyberleninka.ru/article/n/metody-metodologiya-i-logika-nauchnyh-issledovaniy
+3. **Новиков А. М., Новиков Д. А.** Методология: словарь системы основных понятий [Электронный ресурс]. — URL: http://library.volnc.ru/book/view?id=9442
 
-Мухина Е. Р. Методология менеджмента [Электронный ресурс]. — URL: https://cyberleninka.ru/article/n/metodologiya-menedzhmenta
+4. **Едронова В. Н., Овчаров А. О.** Методы, методология и логика научных исследований // Экономический анализ: теория и практика. — 2013. — № 9(312) [Электронный ресурс]. — URL: https://cyberleninka.ru/article/n/metody-metodologiya-i-logika-nauchnyh-issledovaniy
 
-Кознов Д. В. Введение в программную инженерию (курс ИНТУИТ) [Электронный ресурс]. — Режим доступа: https://intuit.ru/studies/courses/2260/252/lecture/15007
+5. **Мухина Е. Р.** Методология менеджмента [Электронный ресурс]. — URL: https://cyberleninka.ru/article/n/metodologiya-menedzhmenta
+
+6. **Кознов Д. В.** Введение в программную инженерию (курс ИНТУИТ) [Электронный ресурс]. — Режим доступа: https://intuit.ru/studies/courses/2260/252/lecture/15007
 
 ---
 

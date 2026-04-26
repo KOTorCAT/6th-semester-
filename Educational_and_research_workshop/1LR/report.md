@@ -79,7 +79,7 @@ graph TB
     METHOD --> METHOD_CHAR
 ```
 
-** Подробная схема** [2stage.md](2stage.md)
+ Подробная схема [2stage.md](2stage.md)
 
 ---
 
@@ -93,7 +93,7 @@ graph TB
 | 4 | Тестирование банковской системы | Тестирование от рисков | Проверка границ, разбиение на группы |
 | 5 | Анализ оттока клиентов | CRISP-DM | Изучение данных, построение модели |
 
-**Описание примеров:** [2stage.md](2stage.md)
+Описание примеров: [2stage.md](2stage.md)
 
 ---
 
@@ -127,7 +127,7 @@ graph TB
 | 6 | Настройка маршрутов | Привязка адресов |
 | 7 | Тестирование | Ручное |
 
-** Полный код проекта и документация:** [3stage/](3stage/)
+ Полный код проекта и документация: [3stage/](3stage/)
 
 ### 4.4. Скриншоты
 
@@ -191,6 +191,6 @@ python manage.py runserver 8001
 2. Составлена схема связи понятий и 5 примеров из ИТ
 3. Разработано веб-приложение «Notes» на Django с методологией Kanban
 
-** Все файлы проекта доступны в папке:** [1LR/](https://github.com/KOTorCAT/6th-semester-/tree/main/Educational_and_research_workshop/1LR)
+Все файлы проекта доступны в папке: [1LR/](https://github.com/KOTorCAT/6th-semester-/tree/main/Educational_and_research_workshop/1LR)
 
 ---

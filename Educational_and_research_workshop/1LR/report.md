@@ -131,11 +131,19 @@ graph TB
 ### 4.5. Запуск проекта
 
 ```bash
-cd 3stage
+git clone https://github.com/KOTorCAT/6th-semester-/tree/main/Educational_and_research_workshop/1LR/3stage
+
+# 2. Активировать виртуальное окружение
 python3 -m venv venv
 source venv/bin/activate
+
+# 3. Установить зависимости
 pip install -r requirements.txt
+
+# 4. Выполнить миграции (создать базу данных)
 python manage.py migrate
+
+# 5. Запустить сервер
 python manage.py runserver 8001
 ```
 

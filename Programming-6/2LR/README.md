@@ -61,4 +61,3 @@ python3 benchmark.py
 - `setup.py` - компиляция Cython
 - `benchmark.py` - сравнение всех итераций
 - `requirements.txt` - зависимости
-```

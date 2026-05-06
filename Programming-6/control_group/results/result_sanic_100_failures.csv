@@ -1,0 +1,3 @@
+Method,Name,Error,Occurrences
+GET,/cpu_fixed,"ConnectionRefusedError(111, 'Connection refused')",3093
+GET,/cpu,"ConnectionRefusedError(111, 'Connection refused')",3062

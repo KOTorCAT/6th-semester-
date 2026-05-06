@@ -1,0 +1,2 @@
+Method,Name,Error,Occurrences
+GET,/cpu_fixed,HTTPError('501 Server Error: NOT IMPLEMENTED for url: /cpu_fixed'),30

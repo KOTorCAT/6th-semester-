@@ -1,0 +1,20 @@
+services:
+  app1:
+    build: ./app1
+    container_name: ping-pong-1
+    ports:
+      - "8081:8081"
+    environment:
+      - PORT=8081
+      - PONG=pong-from-app-1
+    restart: unless-stopped
+
+  app2:
+    build: ./app2
+    container_name: ping-pong-2
+    ports:
+      - "8082:8082"
+    environment:
+      - PORT=8082
+      - PONG=pong-from-app-2
+    restart: unless-stopped 

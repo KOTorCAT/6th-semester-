@@ -1,4 +1,3 @@
-```markdown
 # Отчет по лабораторной работе 01: Feature Importance and Selection
 
 **Студент:** Смирнов Михаил  
